@@ -123,7 +123,7 @@ buffer.auto_c_choose_single = true
 buffer.call_tip_use_style = 0
 
 -- Folding.
-buffer:set_fold_flags(16)
+buffer.fold_flags = _SCINTILLA.constants.SC_FOLDFLAG_LINEAFTER_CONTRACTED
 
 -- Line Wrapping.
 --buffer.wrap_mode = 1
