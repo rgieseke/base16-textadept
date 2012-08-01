@@ -101,11 +101,11 @@ buffer.indentation_guides = 3
 
 -- Fold Margin Markers.
 buffer:marker_define(c.SC_MARKNUM_FOLDEROPEN, c.SC_MARK_ARROWDOWN)
-buffer:marker_set_fore(c.SC_MARKNUM_FOLDEROPEN, colors.comment)
-buffer:marker_set_back(c.SC_MARKNUM_FOLDEROPEN, colors.comment)
+buffer.marker_fore[c.SC_MARKNUM_FOLDEROPEN] = colors.comment
+buffer.marker_back[c.SC_MARKNUM_FOLDEROPEN] = colors.comment
 buffer:marker_define(c.SC_MARKNUM_FOLDER, c.SC_MARK_ARROW)
-buffer:marker_set_fore(c.SC_MARKNUM_FOLDER, colors.comment)
-buffer:marker_set_back(c.SC_MARKNUM_FOLDER, colors.comment)
+buffer.marker_fore[c.SC_MARKNUM_FOLDER] = colors.comment
+buffer.marker_back[c.SC_MARKNUM_FOLDER] = colors.comment
 buffer:marker_define(c.SC_MARKNUM_FOLDERSUB, c.SC_MARK_EMPTY)
 buffer:marker_define(c.SC_MARKNUM_FOLDERTAIL, c.SC_MARK_EMPTY)
 buffer:marker_define(c.SC_MARKNUM_FOLDEREND, c.SC_MARK_EMPTY)
