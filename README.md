@@ -1,4 +1,4 @@
-## Themes for the [Textadept](http://code.google.com/p/textadept/) editor
+## Themes for the [Textadept](http://foicica.com/textadept/) editor
 
 ### Tomorrow Theme
 Ported from <https://github.com/ChrisKempson/Tomorrow-Theme>
