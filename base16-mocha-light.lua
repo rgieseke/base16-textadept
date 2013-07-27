@@ -55,7 +55,7 @@ property['style.identifier'] = '%(style.nothing)'
 property['style.default'] = 'font:%(font),size:%(fontsize),'..
                             'fore:%(color.base02),back:%(color.base07)'
 property['style.linenumber'] = 'fore:%(color.base05),back:%(color.base07)'
-property['style.bracelight'] = 'fore:%(color.base06),back:%(color.base0C)'
+property['style.bracelight'] = 'fore:%(color.base0C),underlined'
 property['style.bracebad'] = 'fore:%(color.base08)'
 property['style.controlchar'] = '%(style.nothing)'
 property['style.indentguide'] = 'fore:%(color.base03)'
