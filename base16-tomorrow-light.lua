@@ -77,7 +77,7 @@ buffer.caret_line_back = property_int['color.base06']
 
 -- Fold Margin.
 buffer:set_fold_margin_colour(true, property_int['color.base07'])
-buffer:set_fold_margin_hi_colour(true, property_int['color.base02'])
+buffer:set_fold_margin_hi_colour(true, property_int['color.base07'])
 
 -- Fold Margin Markers.
 local c = _SCINTILLA.constants
