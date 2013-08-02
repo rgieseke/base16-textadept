@@ -1,6 +1,7 @@
--- Chalk theme for Textadept
+-- Chalk theme for Textadept (http://foicica.com/textadept/)
 -- Theme author: Chris Kempson (http://chriskempson.com)
--- Build with Base16 (https://github.com/chriskempson/base16)
+-- Base16 (https://github.com/chriskempson/base16)
+-- Build with Base16 Builder (https://github.com/chriskempson/base16-builder)
 -- Repository: https://github.com/rgieseke/ta-themes
 
 local buffer = buffer

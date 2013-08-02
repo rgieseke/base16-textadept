@@ -1,6 +1,7 @@
--- Railscasts theme for Textadept
+-- Railscasts theme for Textadept (http://foicica.com/textadept/)
 -- Theme author: Ryan Bates (http://railscasts.com)
--- Build with Base16 (https://github.com/chriskempson/base16)
+-- Base16 (https://github.com/chriskempson/base16)
+-- Build with Base16 Builder (https://github.com/chriskempson/base16-builder)
 -- Repository: https://github.com/rgieseke/ta-themes
 
 local buffer = buffer
