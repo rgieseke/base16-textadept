@@ -13,9 +13,11 @@ Set a theme to be the default one by putting
 the folowing somewhere in your ~/.textadept/init.lua, e.g.:
 
 Pre 7.0 beta 3
+
     gui.set_theme('base16-solarized-dark')
 
 Post 7.0 beta 3
+
     ui.set_theme('base16-solarized-dark')
 
 ### Base16 Themes
