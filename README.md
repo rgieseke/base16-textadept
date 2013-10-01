@@ -9,7 +9,8 @@ Clone the repository:
     cd ~/.textadept
     git clone https://github.com/rgieseke/ta-themes.git themes
 
-Set a theme by putting the following in your `~/.textadept/init.lua`, e.g.:
+Set a theme by putting the following in your `~/.textadept/init.lua`, e.g. for
+Solarized Light:
 
     if not CURSES then ui.set_theme('base16-solarized-light') end
 
