@@ -1,6 +1,6 @@
 ## Themes for the [Textadept](http://foicica.com/textadept/) editor
 
-Requires Textadept 7 alpha or later.
+Requires Textadept 7 beta 4 or later.
 
 ### Installation
 
@@ -9,16 +9,9 @@ Clone the repository:
     cd ~/.textadept
     git clone https://github.com/rgieseke/ta-themes.git themes
 
-Set a theme to be the default one by putting
-the folowing somewhere in your ~/.textadept/init.lua, e.g.:
+Set a theme by putting the following in your `~/.textadept/init.lua`, e.g.:
 
-Pre 7.0 beta 3
-
-    gui.set_theme('base16-solarized-dark')
-
-Post 7.0 beta 3
-
-    ui.set_theme('base16-solarized-dark')
+    if not CURSES then ui.set_theme('base16-solarized-light') end
 
 ### Base16 Themes
 
