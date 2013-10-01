@@ -21,6 +21,7 @@ Base16: <https://github.com/chriskempson/base16>
 
 Preview: <http://chriskempson.github.io/base16/>
 
+- Atelier Schemes
 - Chalk
 - Default
 - Eighties
@@ -29,6 +30,7 @@ Preview: <http://chriskempson.github.io/base16/>
 - Monokai
 - Ocean
 - Railscasts
+- Shapeshifter
 - Solarized
 - Tomorrow
 - 3024
