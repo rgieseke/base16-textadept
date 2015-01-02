@@ -32,26 +32,6 @@ elseif OSX then
   property['font'], property['fontsize'] = 'Monaco', 12
 end
 
--- Token styles.
-property['style.nothing'] = ''
-property['style.class'] = 'fore:%(color.base0A)'
-property['style.comment'] = 'fore:%(color.base04)'
-property['style.constant'] = 'fore:%(color.base09)'
-property['style.error'] = 'fore:%(color.base08),italics'
-property['style.function'] = 'fore:%(color.base0E)'
-property['style.keyword'] = 'fore:%(color.base0E)'
-property['style.label'] = 'fore:%(color.base0A)'
-property['style.number'] = 'fore:%(color.base09)'
-property['style.operator'] = 'fore:%(color.base02)'
-property['style.regex'] = 'fore:%(color.base0C)'
-property['style.string'] = 'fore:%(color.base0B)'
-property['style.preprocessor'] = 'fore:%(color.base0A)'
-property['style.type'] = 'fore:%(color.base09)'
-property['style.variable'] = 'fore:%(color.base08)'
-property['style.whitespace'] = ''
-property['style.embedded'] = 'fore:%(color.base0F),back:%(color.base06)'
-property['style.identifier'] = '%(style.nothing)'
-
 -- Predefined styles.
 property['style.default'] = 'font:%(font),size:%(fontsize),'..
                             'fore:%(color.base02),back:%(color.base07)'
@@ -61,6 +41,25 @@ property['style.bracebad'] = 'fore:%(color.base08)'
 property['style.controlchar'] = '%(style.nothing)'
 property['style.indentguide'] = 'fore:%(color.base03)'
 property['style.calltip'] = 'fore:%(color.base05),back:%(color.base00)'
+
+-- Token styles.
+property['style.class'] = 'fore:%(color.base08)'
+property['style.comment'] = 'fore:%(color.base04)'
+property['style.constant'] = 'fore:%(color.base09)'
+property['style.embedded'] = 'fore:%(color.base0F),back:%(color.base06)'
+property['style.error'] = 'fore:%(color.base08),italics'
+property['style.function'] = 'fore:%(color.base09)'
+property['style.identifier'] = ''
+property['style.keyword'] = 'fore:%(color.base0D)'
+property['style.label'] = 'fore:%(color.base09)'
+property['style.number'] = 'fore:%(color.base0C)'
+property['style.operator'] = 'fore:%(color.base0E)'
+property['style.preprocessor'] = 'fore:%(color.base0A)'
+property['style.regex'] = 'fore:%(color.base0C)'
+property['style.string'] = 'fore:%(color.base0B)'
+property['style.type'] = 'fore:%(color.base0E)'
+property['style.variable'] = 'fore:%(color.base0D)'
+property['style.whitespace'] = ''
 
 -- Multiple Selection and Virtual Space.
 --buffer.additional_sel_alpha =
@@ -93,6 +92,13 @@ for i = 25, 31 do -- fold margin markers
   buffer.marker_back[i] = property_int['color.base04']
   buffer.marker_back_selected[i] = property_int['color.base05']
 end
+
+-- Indicators.
+local INDIC_BRACEMATCH = textadept.editing.INDIC_BRACEMATCH
+buffer.indic_fore[INDIC_BRACEMATCH] = property_int['color.base02']
+local INDIC_HIGHLIGHT = textadept.editing.INDIC_HIGHLIGHT
+buffer.indic_fore[INDIC_HIGHLIGHT] = property_int['color.base0A']
+buffer.indic_alpha[INDIC_HIGHLIGHT] = 255
 
 -- Long Lines.
 buffer.edge_colour = property_int['color.base06']
