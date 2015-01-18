@@ -1,13 +1,13 @@
 ## Themes for the [Textadept](http://foicica.com/textadept/) editor
 
-Requires Textadept 7 beta 4 or later.
+Requires Textadept 7 or later.
 
 ### Installation
 
 Clone the repository:
 
     cd ~/.textadept
-    git clone https://github.com/rgieseke/ta-themes.git themes
+    git clone https://github.com/rgieseke/textadept-themes.git themes
 
 Set a theme by putting the following in your `~/.textadept/init.lua`, e.g. for
 Solarized Light:
