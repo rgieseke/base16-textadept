@@ -106,3 +106,4 @@ buffer.edge_colour = property_int['color.base01']
 -- Add red and green for diff lexer.
 property['color.red'] = property['color.base08']
 property['color.green'] = property['color.base0B']
+property['color.yellow'] = property['color.base0A']
