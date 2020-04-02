@@ -12,7 +12,9 @@ Clone the repository:
 Set a theme by putting the following in your `~/.textadept/init.lua`, e.g. for
 Solarized Light:
 
+```lua
     buffer:set_theme(not CURSES and 'base16-solarized-light' or 'term')
+```
 
 ### Preferences
 
