@@ -1,7 +1,5 @@
 ## Themes for the [Textadept](http://foicica.com/textadept/) editor
 
-Requires Textadept 7 or later.
-
 ### Installation
 
 Clone the repository:
