@@ -28,7 +28,7 @@ to your `properties.lua` and make the line numbers brighter add
 
 ```lua
 if not CURSES then
-  ui.set_theme('base16-twilight-dark', {
+  buffer:set_theme('base16-twilight-dark', {
     ['style.linenumber'] = 'fore:%(color.base07),back:%(color.base02)',
   })
 end
