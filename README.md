@@ -2,10 +2,12 @@
 
 ### Installation
 
-Clone the repository:
+Clone the repository, e.g.:
 
-    cd ~/.textadept
-    git clone https://github.com/rgieseke/textadept-themes.git themes
+    cd ~/.textadept/themes
+    git clone https://github.com/rgieseke/base16-textadept.git
+
+Copy or symlink all or some themes into `.textadept/themes`
 
 Set a theme by putting the following in your `~/.textadept/init.lua`, e.g. for
 Solarized Light:
@@ -14,27 +16,30 @@ Solarized Light:
     buffer:set_theme(not CURSES and 'base16-solarized-light' or 'term')
 ```
 
-### Preferences
 
-The themes can be modified, as an example to make the fold margin stand out
-more in a dark theme you could add
-
-```lua
-buffer:set_fold_margin_colour(true, buffer.property_int['color.base01'])
-buffer:set_fold_margin_hi_colour(true, buffer.property_int['color.base02'])
+To build or develop locally (e.g. with the Typescript Builder)
+```shell
+npm install base16-builder-typescript
+./node_modules/.bin/base16-builder update
+cp -r templates/ sources/templates/textadept/
+./node_modules/.bin/base16-builder build --template textadept
+# Simplify directory structure for this repo
+mv themes/textadept/themes/*.lua themes
+rm -r themes/textadept
 ```
 
-to your `properties.lua` and make the line numbers brighter add
+### Preferences
+
+The themes can be modified, as an example to make the line numbers stand out
+more add in  your `init.lua`:
 
 ```lua
 if not CURSES then
-  buffer:set_theme('base16-twilight-dark', {
+  buffer:set_theme('base16-twilight', {
     ['style.linenumber'] = 'fore:%(color.base07),back:%(color.base02)',
   })
 end
 ```
-
-to your `init.lua`.
 
 ### Base16 Themes
 
