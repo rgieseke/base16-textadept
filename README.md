@@ -43,8 +43,4 @@ end
 
 ### Base16 Themes
 
-Build with Base16 Builder: <https://github.com/chriskempson/base16-builder>
-
 Base16: <https://github.com/chriskempson/base16>
-
-(Partial) Preview: <http://chriskempson.github.io/base16/>
