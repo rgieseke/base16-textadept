@@ -2,6 +2,8 @@
 -- http://chriskempson.com/projects/base16/
 -- Theme author: https://github.com/voronianski/oceanic-next-color-scheme
 -- Template Repository: https://github.com/rgieseke/base16-textadept
+-- Template adapted from Textadept's default templates
+-- Copyright 2007-2020 Mitchell mitchell.att.foicica.com. MIT licensed.
 
 local buffer = buffer
 local property, property_int = buffer.property, buffer.property_int
