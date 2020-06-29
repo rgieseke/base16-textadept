@@ -35,7 +35,7 @@ more add in  your `init.lua`:
 
 ```lua
 if not CURSES then
-  buffer:set_theme('base16-twilight', {
+  view:set_theme('base16-twilight', {
     ['style.linenumber'] = 'fore:%(color.base07),back:%(color.base02)',
   })
 end
