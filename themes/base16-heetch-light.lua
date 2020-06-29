@@ -77,8 +77,8 @@ buffer.caret_line_back = property_int['color.base01']
 --buffer.caret_line_back_alpha =
 
 -- Fold Margin.
-buffer:set_fold_margin_colour(true, property_int['color.base00'])
-buffer:set_fold_margin_hi_colour(true, property_int['color.base00'])
+buffer:set_fold_margin_color(true, property_int['color.base00'])
+buffer:set_fold_margin_hi_color(true, property_int['color.base00'])
 
 -- Markers.
 local MARK_BOOKMARK = textadept.bookmarks.MARK_BOOKMARK
@@ -109,7 +109,7 @@ buffer.indic_fore[INDIC_PLACEHOLDER] = property_int['color.base04']
 buffer.call_tip_fore_hlt = property_int['color.base06']
 
 -- Long Lines.
-buffer.edge_colour = property_int['color.base02']
+buffer.edge_color = property_int['color.base02']
 
 -- Add red, green, and yellow for diff lexer.
 property['color.red'] = property['color.base08']
