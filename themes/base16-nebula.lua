@@ -1,6 +1,6 @@
--- Base16 Theme: Synth Midnight Terminal Dark
+-- Base16 Theme: Nebula
 -- http://chriskempson.com/projects/base16/
--- Theme author: Michaël Ball (http://github.com/michael-ball/)
+-- Theme author: Gabriel Fontes (https://github.com/Misterio77)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default templates
 -- Copyright 2007-2020 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -9,22 +9,22 @@ local view = view
 local property, property_int = view.property, view.property_int
 
 -- Base16 colors
-property['color.base00'] = 0x080605
-property['color.base01'] = 0x1c1b1a
-property['color.base02'] = 0x2a2928
-property['color.base03'] = 0x494847
-property['color.base04'] = 0xa6a5a3
-property['color.base05'] = 0xc4c3c1
-property['color.base06'] = 0xd2d1cf
-property['color.base07'] = 0xe0dfdd
-property['color.base08'] = 0x503bb5
-property['color.base09'] = 0x0d77ea
-property['color.base0A'] = 0x64d3c9
-property['color.base0B'] = 0x61ea06
-property['color.base0C'] = 0xf9ff42
-property['color.base0D'] = 0xffae03
-property['color.base0E'] = 0xe25cea
-property['color.base0F'] = 0x2063cd
+property['color.base00'] = 0x3b2722
+property['color.base01'] = 0x604f41
+property['color.base02'] = 0x80835a
+property['color.base03'] = 0x726f6e
+property['color.base04'] = 0x8b8887
+property['color.base05'] = 0xa9a6a4
+property['color.base06'] = 0xcdc9c7
+property['color.base07'] = 0xaabd8d
+property['color.base08'] = 0xbc7a77
+property['color.base09'] = 0x9e9294
+property['color.base0A'] = 0x62904f
+property['color.base0B'] = 0xa86265
+property['color.base0C'] = 0x686f22
+property['color.base0D'] = 0xb66b4d
+property['color.base0E'] = 0xae6c71
+property['color.base0F'] = 0xa7708c
 
 -- Default font.
 property['font'], property['fontsize'] = 'Bitstream Vera Sans Mono', 10

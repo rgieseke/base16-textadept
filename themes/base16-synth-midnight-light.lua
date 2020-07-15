@@ -1,4 +1,4 @@
--- Base16 Theme: Synth Midnight Terminal Dark
+-- Base16 Theme: Synth Midnight Terminal Light
 -- http://chriskempson.com/projects/base16/
 -- Theme author: Michaël Ball (http://github.com/michael-ball/)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
@@ -9,14 +9,14 @@ local view = view
 local property, property_int = view.property, view.property_int
 
 -- Base16 colors
-property['color.base00'] = 0x080605
-property['color.base01'] = 0x1c1b1a
-property['color.base02'] = 0x2a2928
-property['color.base03'] = 0x494847
-property['color.base04'] = 0xa6a5a3
-property['color.base05'] = 0xc4c3c1
-property['color.base06'] = 0xd2d1cf
-property['color.base07'] = 0xe0dfdd
+property['color.base00'] = 0xe0dfdd
+property['color.base01'] = 0xd2d1cf
+property['color.base02'] = 0xc4c3c1
+property['color.base03'] = 0xa6a5a3
+property['color.base04'] = 0x494847
+property['color.base05'] = 0x2a2928
+property['color.base06'] = 0x1c1b1a
+property['color.base07'] = 0x080605
 property['color.base08'] = 0x503bb5
 property['color.base09'] = 0x0d77ea
 property['color.base0A'] = 0x64d3c9
