@@ -28,19 +28,6 @@ mv themes/textadept/themes/*.lua themes
 rm -r themes/textadept
 ```
 
-### Preferences
-
-The themes can be modified, as an example to make the line numbers stand out
-more add in  your `init.lua`:
-
-```lua
-if not CURSES then
-  view:set_theme('base16-twilight', {
-    ['style.linenumber'] = 'fore:%(color.base07),back:%(color.base02)',
-  })
-end
-```
-
 ### Base16 Themes
 
 Base16: <https://github.com/chriskempson/base16>
