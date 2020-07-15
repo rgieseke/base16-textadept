@@ -36,7 +36,7 @@ if not size then size = not OSX and 10 or 12 end
 styles.default = {
   font = font, size = size, fore = colors.base05, back = colors.base00
 }
-styles.linenumber = {fore = colors.base04, back = colors.base00}
+styles.line_number = {fore = colors.base04, back = colors.base00}
 --styles.control_char =
 styles.indent_guide = {fore = colors.base03}
 styles.call_tip = {fore = colors.base04, back = colors.base01}
