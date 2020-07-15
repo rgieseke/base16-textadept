@@ -5,8 +5,8 @@
 -- Template adapted from Textadept's default templates
 -- Copyright 2007-2020 Mitchell mitchell.att.foicica.com. MIT licensed.
 
-local buffer = buffer
-local property, property_int = buffer.property, buffer.property_int
+local view = view
+local property, property_int = view.property, view.property_int
 
 -- Base16 colors
 property['color.base00'] = 0xf2f8f8
@@ -63,53 +63,53 @@ property['style.variable'] = 'fore:$(color.base08)'
 property['style.whitespace'] = ''
 
 -- Multiple Selection and Virtual Space
---buffer.additional_sel_alpha =
---buffer.additional_sel_fore =
---buffer.additional_sel_back =
---buffer.additional_caret_fore =
+--view.additional_sel_alpha =
+--view.additional_sel_fore =
+--view.additional_sel_back =
+--view.additional_caret_fore =
 
 -- Caret and Selection Styles.
-buffer:set_sel_fore(true, property_int['color.base06'])
-buffer:set_sel_back(true, property_int['color.base02'])
---buffer.sel_alpha =
-buffer.caret_fore = property_int['color.base05']
-buffer.caret_line_back = property_int['color.base01']
---buffer.caret_line_back_alpha =
+view:set_sel_fore(true, property_int['color.base06'])
+view:set_sel_back(true, property_int['color.base02'])
+--view.sel_alpha =
+view.caret_fore = property_int['color.base05']
+view.caret_line_back = property_int['color.base01']
+--view.caret_line_back_alpha =
 
 -- Fold Margin.
-buffer:set_fold_margin_color(true, property_int['color.base00'])
-buffer:set_fold_margin_hi_color(true, property_int['color.base00'])
+view:set_fold_margin_color(true, property_int['color.base00'])
+view:set_fold_margin_hi_color(true, property_int['color.base00'])
 
 -- Markers.
 local MARK_BOOKMARK = textadept.bookmarks.MARK_BOOKMARK
---buffer.marker_fore[MARK_BOOKMARK] = property_int['color.base00']
-buffer.marker_back[MARK_BOOKMARK] = property_int['color.base0B']
---buffer.marker_fore[textadept.run.MARK_WARNING] = property_int['color.base00']
-buffer.marker_back[textadept.run.MARK_WARNING] = property_int['color.base0E']
---buffer.marker_fore[textadept.run.MARK_ERROR] = property_int['color.base00']
-buffer.marker_back[textadept.run.MARK_ERROR] = property_int['color.base08']
-for i = buffer.MARKNUM_FOLDEREND, buffer.MARKNUM_FOLDEROPEN do -- fold margin
-  buffer.marker_fore[i] = property_int['color.base00']
-  buffer.marker_back[i] = property_int['color.base03']
-  buffer.marker_back_selected[i] = property_int['color.base02']
+--view.marker_fore[MARK_BOOKMARK] = property_int['color.base00']
+view.marker_back[MARK_BOOKMARK] = property_int['color.base0B']
+--view.marker_fore[textadept.run.MARK_WARNING] = property_int['color.base00']
+view.marker_back[textadept.run.MARK_WARNING] = property_int['color.base0E']
+--view.marker_fore[textadept.run.MARK_ERROR] = property_int['color.base00']
+view.marker_back[textadept.run.MARK_ERROR] = property_int['color.base08']
+for i = view.MARKNUM_FOLDEREND, view.MARKNUM_FOLDEROPEN do -- fold margin
+  view.marker_fore[i] = property_int['color.base00']
+  view.marker_back[i] = property_int['color.base03']
+  view.marker_back_selected[i] = property_int['color.base02']
 end
 
 -- Indicators.
-buffer.indic_fore[ui.find.INDIC_FIND] = property_int['color.base09']
-buffer.indic_alpha[ui.find.INDIC_FIND] = 255
+view.indic_fore[ui.find.INDIC_FIND] = property_int['color.base09']
+view.indic_alpha[ui.find.INDIC_FIND] = 255
 local INDIC_BRACEMATCH = textadept.editing.INDIC_BRACEMATCH
-buffer.indic_fore[INDIC_BRACEMATCH] = property_int['color.base06']
+view.indic_fore[INDIC_BRACEMATCH] = property_int['color.base06']
 local INDIC_HIGHLIGHT = textadept.editing.INDIC_HIGHLIGHT
-buffer.indic_fore[INDIC_HIGHLIGHT] = property_int['color.base07']
-buffer.indic_alpha[INDIC_HIGHLIGHT] = 255
+view.indic_fore[INDIC_HIGHLIGHT] = property_int['color.base07']
+view.indic_alpha[INDIC_HIGHLIGHT] = 255
 local INDIC_PLACEHOLDER = textadept.snippets.INDIC_PLACEHOLDER
-buffer.indic_fore[INDIC_PLACEHOLDER] = property_int['color.base04']
+view.indic_fore[INDIC_PLACEHOLDER] = property_int['color.base04']
 
 -- Call tips.
-buffer.call_tip_fore_hlt = property_int['color.base06']
+view.call_tip_fore_hlt = property_int['color.base06']
 
 -- Long Lines.
-buffer.edge_color = property_int['color.base02']
+view.edge_color = property_int['color.base02']
 
 -- Add red, green, and yellow for diff lexer.
 property['color.red'] = property['color.base08']
