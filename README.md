@@ -16,6 +16,9 @@ Solarized Light:
     view:set_theme(not CURSES and 'base16-solarized-light' or 'term')
 ```
 
+This repo tracks the latest changes in TA 11 alpha development.
+Textadept 10.8 users need `buffer:set_theme` and this commit: https://github.com/rgieseke/base16-textadept/tree/54d635482a3445fb47c2771e7e80a096321e8589
+
 
 To build or develop locally (e.g. with the Typescript Builder)
 ```shell
