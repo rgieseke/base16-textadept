@@ -1,4 +1,4 @@
-## Themes for the [Textadept](http://foicica.com/textadept/) editor
+## [Base16](http://chriskempson.com/projects/base16/) Themes for the [Textadept](http://foicica.com/textadept/) editor
 
 ### Installation
 
