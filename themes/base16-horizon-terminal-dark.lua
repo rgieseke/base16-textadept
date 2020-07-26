@@ -93,11 +93,11 @@ for i = view.MARKNUM_FOLDEREND, view.MARKNUM_FOLDEROPEN do -- fold margin
 end
 
 -- Indicators.
-view.indic_fore[ui.INDIC_HIGHLIGHT] = colors.base07
-view.indic_alpha[ui.INDIC_HIGHLIGHT] = 64
 view.indic_fore[ui.find.INDIC_FIND] = colors.base09
 view.indic_alpha[ui.find.INDIC_FIND] = 255
 view.indic_fore[textadept.editing.INDIC_BRACEMATCH] = colors.base06
+view.indic_fore[textadept.editing.INDIC_HIGHLIGHT] = colors.base07
+view.indic_alpha[textadept.editing.INDIC_HIGHLIGHT] = 64
 view.indic_fore[textadept.snippets.INDIC_PLACEHOLDER] = colors.base04
 
 -- Call tips.
