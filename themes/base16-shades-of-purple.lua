@@ -1,6 +1,6 @@
--- Base16 Theme: Tomorrow
+-- Base16 Theme: Shades of Purple
 -- http://chriskempson.com/projects/base16/
--- Theme author: Chris Kempson (http://chriskempson.com)
+-- Theme author: Iolar Demartini Junior (http://github.com/demartini) based on Shades of Purple Theme (https://github.com/ahmadawais/shades-of-purple-vscode).
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default templates
 -- Copyright 2007-2020 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -8,22 +8,22 @@
 local view, colors, styles = view, lexer.colors, lexer.styles
 
 -- Base16 colors
-colors.base00 = 0xffffff
-colors.base01 = 0xe0e0e0
-colors.base02 = 0xd6d6d6
-colors.base03 = 0x8c908e
-colors.base04 = 0x969896
-colors.base05 = 0x4c4d4d
-colors.base06 = 0x2e2a28
-colors.base07 = 0x211f1d
-colors.base08 = 0x2928c8
-colors.base09 = 0x1f87f5
-colors.base0A = 0x00b7ea
-colors.base0B = 0x008c71
-colors.base0C = 0x9f993e
-colors.base0D = 0xae7142
-colors.base0E = 0xa85989
-colors.base0F = 0x5a68a3
+colors.base00 = 0x3f1e1e
+colors.base01 = 0x26d443
+colors.base02 = 0x00d0f1
+colors.base03 = 0x808080
+colors.base04 = 0xff7168
+colors.base05 = 0xc7c7c7
+colors.base06 = 0xff77ff
+colors.base07 = 0xffffff
+colors.base08 = 0x2904d9
+colors.base09 = 0x1c2af9
+colors.base0A = 0x00e7ff
+colors.base0B = 0x00d93a
+colors.base0C = 0xc7c500
+colors.base0D = 0xff4369
+colors.base0E = 0x702cff
+colors.base0F = 0xfbe879
 
 -- Default font.
 if not font then

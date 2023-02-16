@@ -1,6 +1,6 @@
--- Base16 Theme: Tomorrow Night
+-- Base16 Theme: tender
 -- http://chriskempson.com/projects/base16/
--- Theme author: Chris Kempson (http://chriskempson.com)
+-- Theme author: Jacobo Tabernero (https://github/com/jacoborus/tender.vim)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default templates
 -- Copyright 2007-2020 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -8,22 +8,22 @@
 local view, colors, styles = view, lexer.colors, lexer.styles
 
 -- Base16 colors
-colors.base00 = 0x211f1d
-colors.base01 = 0x2e2a28
-colors.base02 = 0x413b37
-colors.base03 = 0x969896
-colors.base04 = 0xb4b7b4
-colors.base05 = 0xc6c8c5
-colors.base06 = 0xe0e0e0
-colors.base07 = 0xffffff
-colors.base08 = 0x6666cc
-colors.base09 = 0x5f93de
-colors.base0A = 0x74c6f0
-colors.base0B = 0x68bdb5
-colors.base0C = 0xb7be8a
-colors.base0D = 0xbea281
-colors.base0E = 0xbb94b2
-colors.base0F = 0x5a68a3
+colors.base00 = 0x282828
+colors.base01 = 0x383838
+colors.base02 = 0x484848
+colors.base03 = 0x4c4c4c
+colors.base04 = 0xb8b8b8
+colors.base05 = 0xeeeeee
+colors.base06 = 0xe8e8e8
+colors.base07 = 0xfffffe
+colors.base08 = 0x5337f4
+colors.base09 = 0x5696dc
+colors.base0A = 0x4bc2ff
+colors.base0B = 0x5cd0c9
+colors.base0C = 0xf4ce73
+colors.base0D = 0xefdeb3
+colors.base0E = 0x87b9d3
+colors.base0F = 0x4669a1
 
 -- Default font.
 if not font then

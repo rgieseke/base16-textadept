@@ -1,6 +1,6 @@
--- Base16 Theme: Tomorrow Night
+-- Base16 Theme: Qualia
 -- http://chriskempson.com/projects/base16/
--- Theme author: Chris Kempson (http://chriskempson.com)
+-- Theme author: isaacwhanson
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default templates
 -- Copyright 2007-2020 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -8,22 +8,22 @@
 local view, colors, styles = view, lexer.colors, lexer.styles
 
 -- Base16 colors
-colors.base00 = 0x2d2d2d
-colors.base01 = 0x393939
-colors.base02 = 0x515151
-colors.base03 = 0x999999
-colors.base04 = 0xb4b7b4
-colors.base05 = 0xcccccc
-colors.base06 = 0xe0e0e0
-colors.base07 = 0xffffff
-colors.base08 = 0x7a77f2
-colors.base09 = 0x5791f9
-colors.base0A = 0x66ccff
-colors.base0B = 0x99cc99
-colors.base0C = 0xcccc66
-colors.base0D = 0xcc9966
-colors.base0E = 0xcc99cc
-colors.base0F = 0x5a68a3
+colors.base00 = 0x101010
+colors.base01 = 0x454545
+colors.base02 = 0x454545
+colors.base03 = 0x454545
+colors.base04 = 0x808080
+colors.base05 = 0xC0C0C0
+colors.base06 = 0xC0C0C0
+colors.base07 = 0x454545
+colors.base08 = 0xA2A6EF
+colors.base09 = 0xEFB8A3
+colors.base0A = 0xDCA3E6
+colors.base0B = 0x90C980
+colors.base0C = 0x74C8C8
+colors.base0D = 0xCDCA50
+colors.base0E = 0x85AFE0
+colors.base0F = 0x808080
 
 -- Default font.
 if not font then

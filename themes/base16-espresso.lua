@@ -1,6 +1,6 @@
 -- Base16 Theme: Espresso
 -- http://chriskempson.com/projects/base16/
--- Theme author: Alex Mirrington (https://github.com/alexmirrington)
+-- Theme author: Unknown. Maintained by Alex Mirrington (https://github.com/alexmirrington)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default templates
 -- Copyright 2007-2020 Mitchell mitchell.att.foicica.com. MIT licensed.

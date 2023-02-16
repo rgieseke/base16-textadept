@@ -1,6 +1,6 @@
--- Base16 Theme: Horizon Dark
+-- Base16 Theme: Windows 95 Light
 -- http://chriskempson.com/projects/base16/
--- Theme author: Michaël Ball (http://github.com/michael-ball/)
+-- Theme author: Fergus Collins (https://github.com/C-Fergus)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default templates
 -- Copyright 2007-2020 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -8,22 +8,22 @@
 local view, colors, styles = view, lexer.colors, lexer.styles
 
 -- Base16 colors
-colors.base00 = 0x261E1C
-colors.base01 = 0x302523
-colors.base02 = 0x3E302E
-colors.base03 = 0x706F6F
-colors.base04 = 0xA2A09D
-colors.base05 = 0xD0CECB
-colors.base06 = 0xE4DFDC
-colors.base07 = 0xEEE6E3
-colors.base08 = 0x7856E9
-colors.base09 = 0x95B7FA
-colors.base0A = 0x9AC2FA
-colors.base0B = 0x98D329
-colors.base0C = 0xE3E159
-colors.base0D = 0xD9BB26
-colors.base0E = 0xAC64EE
-colors.base0F = 0x8393F0
+colors.base00 = 0xfcfcfc
+colors.base01 = 0xe0e0e0
+colors.base02 = 0xc4c4c4
+colors.base03 = 0xa8a8a8
+colors.base04 = 0x7e7e7e
+colors.base05 = 0x545454
+colors.base06 = 0x2a2a2a
+colors.base07 = 0x000000
+colors.base08 = 0x0000a8
+colors.base09 = 0x54fcfc
+colors.base0A = 0x0054a8
+colors.base0B = 0x00a800
+colors.base0C = 0xa8a800
+colors.base0D = 0xa80000
+colors.base0E = 0xa800a8
+colors.base0F = 0x54fc54
 
 -- Default font.
 if not font then

@@ -1,6 +1,6 @@
--- Base16 Theme: iA Light
+-- Base16 Theme: DanQing
 -- http://chriskempson.com/projects/base16/
--- Theme author: iA Inc. (modified by aramisgithub)
+-- Theme author: Wenhan Zhu (Cosmos) (zhuwenhan950913@gmail.com)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default templates
 -- Copyright 2007-2020 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -8,22 +8,22 @@
 local view, colors, styles = view, lexer.colors, lexer.styles
 
 -- Base16 colors
-colors.base00 = 0xf6f6f6
-colors.base01 = 0xdedede
-colors.base02 = 0xf2e5bd
-colors.base03 = 0x898989
-colors.base04 = 0x767676
-colors.base05 = 0x181818
-colors.base06 = 0xe8e8e8
-colors.base07 = 0xf8f8f8
-colors.base08 = 0x025a9c
-colors.base09 = 0x183ec4
-colors.base0A = 0x1882c4
-colors.base0B = 0x1c7838
-colors.base0C = 0xb16b2d
-colors.base0D = 0xc2ba48
-colors.base0E = 0x9845a9
-colors.base0F = 0x376c8b
+colors.base00 = 0x2f302d
+colors.base01 = 0x464843
+colors.base02 = 0x5d605a
+colors.base03 = 0xa3a89d
+colors.base04 = 0xd2d8ca
+colors.base05 = 0xeFf0e0
+colors.base06 = 0xf2f6ec
+colors.base07 = 0xfdfefc
+colors.base08 = 0x6F90F9
+colors.base09 = 0x618AB3
+colors.base0A = 0x39C2F0
+colors.base0B = 0x61B38A
+colors.base0C = 0xF3DF30
+colors.base0D = 0xE3A4B0
+colors.base0E = 0xE3A4CC
+colors.base0F = 0x2469CA
 
 -- Default font.
 if not font then

@@ -1,6 +1,6 @@
--- Base16 Theme: Solarized Dark
+-- Base16 Theme: Windows 10
 -- http://chriskempson.com/projects/base16/
--- Theme author: Ethan Schoonover (modified by aramisgithub)
+-- Theme author: Fergus Collins (https://github.com/C-Fergus)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default templates
 -- Copyright 2007-2020 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -8,22 +8,22 @@
 local view, colors, styles = view, lexer.colors, lexer.styles
 
 -- Base16 colors
-colors.base00 = 0x362b00
-colors.base01 = 0x423607
-colors.base02 = 0x756e58
-colors.base03 = 0x837b65
-colors.base04 = 0x969483
-colors.base05 = 0xa1a193
-colors.base06 = 0xd5e8ee
-colors.base07 = 0xe3f6fd
-colors.base08 = 0x2f32dc
-colors.base09 = 0x164bcb
-colors.base0A = 0x0089b5
-colors.base0B = 0x009985
-colors.base0C = 0x98a12a
-colors.base0D = 0xd28b26
-colors.base0E = 0xc4716c
-colors.base0F = 0x8236d3
+colors.base00 = 0x0c0c0c
+colors.base01 = 0x2f2f2f
+colors.base02 = 0x535353
+colors.base03 = 0x767676
+colors.base04 = 0xb9b9b9
+colors.base05 = 0xcccccc
+colors.base06 = 0xdfdfdf
+colors.base07 = 0xf2f2f2
+colors.base08 = 0x5648e7
+colors.base09 = 0x009cc1
+colors.base0A = 0xa5f1f9
+colors.base0B = 0x0cc616
+colors.base0C = 0xd6d661
+colors.base0D = 0xff783b
+colors.base0E = 0x9e00b4
+colors.base0F = 0x0ea113
 
 -- Default font.
 if not font then

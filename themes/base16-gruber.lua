@@ -1,6 +1,6 @@
--- Base16 Theme: Horizon Dark
+-- Base16 Theme: Gruber
 -- http://chriskempson.com/projects/base16/
--- Theme author: Michaël Ball (http://github.com/michael-ball/)
+-- Theme author: Patel, Nimai <nimai.m.patel@gmail.com>, colors from www.github.com/rexim/gruber-darker-theme
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default templates
 -- Copyright 2007-2020 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -8,22 +8,22 @@
 local view, colors, styles = view, lexer.colors, lexer.styles
 
 -- Base16 colors
-colors.base00 = 0x261E1C
-colors.base01 = 0x302523
-colors.base02 = 0x3E302E
-colors.base03 = 0x706F6F
-colors.base04 = 0xA2A09D
-colors.base05 = 0xD0CECB
-colors.base06 = 0xE4DFDC
-colors.base07 = 0xEEE6E3
-colors.base08 = 0x7856E9
-colors.base09 = 0x95B7FA
-colors.base0A = 0x9AC2FA
-colors.base0B = 0x98D329
-colors.base0C = 0xE3E159
-colors.base0D = 0xD9BB26
-colors.base0E = 0xAC64EE
-colors.base0F = 0x8393F0
+colors.base00 = 0x181818
+colors.base01 = 0x413d45
+colors.base02 = 0x7f5c66
+colors.base03 = 0x93ae9d
+colors.base04 = 0xefe4e4
+colors.base05 = 0xfff4f4
+colors.base06 = 0xf5f5f5
+colors.base07 = 0xefe4e4
+colors.base08 = 0x4138f4
+colors.base09 = 0x3f3cc7
+colors.base0A = 0x33ddff
+colors.base0B = 0x36c973
+colors.base0C = 0x9fa995
+colors.base0D = 0xc8a696
+colors.base0E = 0xc7959e
+colors.base0F = 0x3c8ccc
 
 -- Default font.
 if not font then

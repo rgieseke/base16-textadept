@@ -1,6 +1,6 @@
--- Base16 Theme: Horizon Light
+-- Base16 Theme: Darcula
 -- http://chriskempson.com/projects/base16/
--- Theme author: Michaël Ball (http://github.com/michael-ball/)
+-- Theme author: jetbrains
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default templates
 -- Copyright 2007-2020 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -8,22 +8,22 @@
 local view, colors, styles = view, lexer.colors, lexer.styles
 
 -- Base16 colors
-colors.base00 = 0xEDF0FD
-colors.base01 = 0xD1DAFA
-colors.base02 = 0xBECBF9
-colors.base03 = 0xB1B3BD
-colors.base04 = 0x8A8C94
-colors.base05 = 0x3D3C40
-colors.base06 = 0x2D2C30
-colors.base07 = 0x1D1C20
-colors.base08 = 0x7856E9
-colors.base09 = 0xC3CEF9
-colors.base0A = 0xD1DAFA
-colors.base0B = 0x98D329
-colors.base0C = 0xE3E159
-colors.base0D = 0xD9BB26
-colors.base0E = 0xAC64EE
-colors.base0F = 0xBECBF9
+colors.base00 = 0x2b2b2b
+colors.base01 = 0x323232
+colors.base02 = 0x323232
+colors.base03 = 0x666360
+colors.base04 = 0xa3a3a4
+colors.base05 = 0xc6b7a9
+colors.base06 = 0x6dc6ff
+colors.base07 = 0xffffff
+colors.base08 = 0xe5ad4e
+colors.base09 = 0x579768
+colors.base0A = 0x29b5bb
+colors.base0B = 0x59876a
+colors.base0C = 0x559762
+colors.base0D = 0xaa7698
+colors.base0E = 0x3278cc
+colors.base0F = 0x808080
 
 -- Default font.
 if not font then

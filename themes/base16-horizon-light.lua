@@ -16,14 +16,14 @@ colors.base04 = 0x8A8C94
 colors.base05 = 0x3D3C40
 colors.base06 = 0x2D2C30
 colors.base07 = 0x1D1C20
-colors.base08 = 0x9B93F7
-colors.base09 = 0x1E66F6
-colors.base0A = 0xD9E0FB
-colors.base0B = 0xB0E194
-colors.base0C = 0x1833DC
-colors.base0D = 0x3F10DA
-colors.base0E = 0x91891D
-colors.base0F = 0x928CE5
+colors.base08 = 0x7856E9
+colors.base09 = 0xC3CEF9
+colors.base0A = 0xD1DAFA
+colors.base0B = 0x98D329
+colors.base0C = 0xE3E159
+colors.base0D = 0xD9BB26
+colors.base0E = 0xAC64EE
+colors.base0F = 0xBECBF9
 
 -- Default font.
 if not font then

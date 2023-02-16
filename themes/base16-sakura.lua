@@ -1,6 +1,6 @@
--- Base16 Theme: Solarized Light
+-- Base16 Theme: Sakura
 -- http://chriskempson.com/projects/base16/
--- Theme author: Ethan Schoonover (modified by aramisgithub)
+-- Theme author: Misterio77 (http://github.com/Misterio77)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default templates
 -- Copyright 2007-2020 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -8,22 +8,22 @@
 local view, colors, styles = view, lexer.colors, lexer.styles
 
 -- Base16 colors
-colors.base00 = 0xe3f6fd
-colors.base01 = 0xd5e8ee
-colors.base02 = 0xa1a193
-colors.base03 = 0x969483
-colors.base04 = 0x837b65
-colors.base05 = 0x756e58
-colors.base06 = 0x423607
-colors.base07 = 0x362b00
-colors.base08 = 0x2f32dc
-colors.base09 = 0x164bcb
-colors.base0A = 0x0089b5
-colors.base0B = 0x009985
-colors.base0C = 0x98a12a
-colors.base0D = 0xd28b26
-colors.base0E = 0xc4716c
-colors.base0F = 0x8236d3
+colors.base00 = 0xf3edfe
+colors.base01 = 0xe7e2f8
+colors.base02 = 0xd1cce0
+colors.base03 = 0x645f75
+colors.base04 = 0x555066
+colors.base05 = 0x484456
+colors.base06 = 0x3a3842
+colors.base07 = 0x2b2933
+colors.base08 = 0x522ddf
+colors.base09 = 0x1e66f6
+colors.base0A = 0x6194c2
+colors.base0B = 0x6d912e
+colors.base0C = 0x91891d
+colors.base0D = 0x936e00
+colors.base0E = 0x80215e
+colors.base0F = 0x350dba
 
 -- Default font.
 if not font then
