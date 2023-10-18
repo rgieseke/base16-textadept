@@ -1,4 +1,4 @@
-## [Base16](https://github.com/chriskempson/base16) themes for the [Textadept](https://orbitalquark.github.io/textadept/) editor
+## Base16 themes for the [Textadept](https://orbitalquark.github.io/textadept/) editor
 
 ### Installation
 
@@ -16,20 +16,38 @@ Solarized Light:
     view:set_theme(not CURSES and 'base16-solarized-light' or 'term')
 ```
 
-This repo tracks the latest Textadept 12 alpha changes.
+This repo tracks the latest Textadept 12 changes.
 
+The themes and tools from [Tinted Theming](https://github.com/tinted-theming/) are used.
 
-To build or develop locally (e.g. with the Typescript Builder)
+Preview: <https://tinted-theming.github.io/base16-gallery/>
+
+To build or develop locally (Using [`base16-builder-node`](https://github.com/tinted-theming/base16-builder-node)):
+
 ```shell
-npm install base16-builder-typescript
-npx base16-builder update
-cp -r templates/ sources/templates/textadept/
-npx base16-builder build --template textadept
-# Simplify directory structure for this repo
-mv themes/textadept/themes/*.lua themes
-rm -r themes/textadept
+npm install base16-builder-node
+```
+
+Clone (or update) the schemes:
+
+```shell
+cd base16
+git clone https://github.com/tinted-theming/base16-schemes.git schemes
+```
+
+To generate the themes from `default.mustache`:
+
+```
+npx base16 build base16 --prefix base16-
+```
+
+If this repo is in `.textadept/themes/base16-textadept` one can symlink the themes so Textadept can find them:
+
+```shell
+ln -s base16-textadept/base16/templates/textadept/themes/base16*.lua .
 ```
 
 ### Base16 Themes
 
+Tinted Theming: <https://github.com/tinted-theming/>
 Base16: <https://github.com/chriskempson/base16>
