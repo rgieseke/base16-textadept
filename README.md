@@ -20,7 +20,7 @@ This repo tracks the latest Textadept 12 changes.
 
 The themes and tools from [Tinted Theming](https://github.com/tinted-theming/) are used.
 
-Preview: <https://tinted-theming.github.io/base16-gallery/>
+Preview: <https://tinted-theming.github.io/tinted-gallery/>
 
 To build or develop locally (Using [`base16-builder-node`](https://github.com/tinted-theming/base16-builder-node)):
 
