@@ -22,18 +22,21 @@ The themes and tools from [Tinted Theming](https://github.com/tinted-theming/) a
 
 Preview: <https://tinted-theming.github.io/tinted-gallery/>
 
-To build or develop locally (Using [`base16-builder-node`](https://github.com/tinted-theming/base16-builder-node)):
+To build or develop locally (using [`base16-builder-node`](https://github.com/tinted-theming/base16-builder-node)):
 
 ```shell
 npm install base16-builder-node
 ```
 
-Clone (or update) the schemes:
+Clone (or update) the schemes, which are tracked in as a submodule:
 
 ```shell
 cd base16
 git clone https://github.com/tinted-theming/base16-schemes.git schemes
 ```
+
+To update the themes, run `git pull` in the `schemes` directory.
+
 
 To generate the themes from `default.mustache`:
 
