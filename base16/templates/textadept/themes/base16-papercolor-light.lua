@@ -1,6 +1,6 @@
 -- Base16 Theme: PaperColor Light
 -- http://chriskempson.com/projects/base16/
--- Theme author: Jon Leopard (http://github.com/jonleopard) based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
+-- Theme author: Jon Leopard (http://github.com/jonleopard), Tinted Theming (https://github.com/tinted-theming), based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default themes
 -- Copyright 2007-2023 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -9,21 +9,21 @@ local view, colors, styles = view, view.colors, view.styles
 
 -- Base16 colors
 colors.base00 = 0xeeeeee
-colors.base01 = 0x0000af
-colors.base02 = 0x008700
-colors.base03 = 0x00875f
-colors.base04 = 0xaf8700
-colors.base05 = 0x444444
-colors.base06 = 0x875f00
-colors.base07 = 0x878787
-colors.base08 = 0xbcbcbc
-colors.base09 = 0x0000d7
-colors.base0A = 0x8700d7
-colors.base0B = 0xaf0087
-colors.base0C = 0x005fd7
-colors.base0D = 0x005fd7
-colors.base0E = 0xaf5f00
-colors.base0F = 0x875f00
+colors.base01 = 0xc4c4c4
+colors.base02 = 0x9e9e9e
+colors.base03 = 0x858585
+colors.base04 = 0x6b6b6b
+colors.base05 = 0x5e5e5e
+colors.base06 = 0x525252
+colors.base07 = 0x444444
+colors.base08 = 0x0000d7
+colors.base09 = 0x005fd7
+colors.base0A = 0x005fd7
+colors.base0B = 0x008700
+colors.base0C = 0xaf8700
+colors.base0D = 0x875f00
+colors.base0E = 0xaf0087
+colors.base0F = 0x0000af
 
 -- Default font.
 if not font then font = OS == 'windows' and 'Consolas' or OS == 'macos' and 'Monaco' or 'Monospace' end

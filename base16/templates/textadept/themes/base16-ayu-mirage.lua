@@ -1,6 +1,6 @@
 -- Base16 Theme: Ayu Mirage
 -- http://chriskempson.com/projects/base16/
--- Theme author: Khue Nguyen <Z5483Y@gmail.com>
+-- Theme author: Tinted Theming (https://github.com/tinted-theming), Ayu Theme (https://github.com/ayu-theme)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default themes
 -- Copyright 2007-2023 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -8,22 +8,22 @@
 local view, colors, styles = view, view.colors, view.styles
 
 -- Base16 colors
-colors.base00 = 0x241B17
-colors.base01 = 0x30241F
-colors.base02 = 0x362924
-colors.base03 = 0x8C7A70
-colors.base04 = 0x99918A
-colors.base05 = 0xC2CACC
-colors.base06 = 0xCED7D9
-colors.base07 = 0xF5F4F3
-colors.base08 = 0x7987F2
-colors.base09 = 0x66ADFF
-colors.base0A = 0x73D1FF
-colors.base0B = 0x80FFD5
-colors.base0C = 0xCBE695
-colors.base0D = 0xE6CF5C
-colors.base0E = 0xFFBFD4
-colors.base0F = 0x749EF2
+colors.base00 = 0x30241f
+colors.base01 = 0x362924
+colors.base02 = 0x443832
+colors.base03 = 0x59504a
+colors.base04 = 0x8c7a70
+colors.base05 = 0xc2cacc
+colors.base06 = 0xced7d9
+colors.base07 = 0xf5f4f3
+colors.base08 = 0x7987f2
+colors.base09 = 0x66adff
+colors.base0A = 0x73d1ff
+colors.base0B = 0x80ffd5
+colors.base0C = 0xcbe695
+colors.base0D = 0xffd073
+colors.base0E = 0xffbfd4
+colors.base0F = 0x8379f2
 
 -- Default font.
 if not font then font = OS == 'windows' and 'Consolas' or OS == 'macos' and 'Monaco' or 'Monospace' end

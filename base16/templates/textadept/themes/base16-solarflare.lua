@@ -8,22 +8,22 @@
 local view, colors, styles = view, view.colors, view.styles
 
 -- Base16 colors
-colors.base00 = 0x2F2618
-colors.base01 = 0x382E22
+colors.base00 = 0x2f2618
+colors.base01 = 0x382e22
 colors.base02 = 0x756858
 colors.base03 = 0x817566
-colors.base04 = 0x9E9385
-colors.base05 = 0xB8AFA6
-colors.base06 = 0xEDE9E8
-colors.base07 = 0xFAF7F5
-colors.base08 = 0x5352EF
-colors.base09 = 0x2B6BE6
-colors.base0A = 0x1CB5E4
-colors.base0B = 0x44C87C
-colors.base0C = 0xB0CB52
-colors.base0D = 0xE1B533
-colors.base0E = 0xD563A3
-colors.base0F = 0x9A3CD7
+colors.base04 = 0x9e9385
+colors.base05 = 0xb8afa6
+colors.base06 = 0xede9e8
+colors.base07 = 0xfaf7f5
+colors.base08 = 0x5352ef
+colors.base09 = 0x2b6be6
+colors.base0A = 0x1cb5e4
+colors.base0B = 0x44c87c
+colors.base0C = 0xb0cb52
+colors.base0D = 0xe1b533
+colors.base0E = 0xd563a3
+colors.base0F = 0x9a3cd7
 
 -- Default font.
 if not font then font = OS == 'windows' and 'Consolas' or OS == 'macos' and 'Monaco' or 'Monospace' end

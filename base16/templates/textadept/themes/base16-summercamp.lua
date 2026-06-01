@@ -22,8 +22,8 @@ colors.base0A = 0x27fff2
 colors.base0B = 0x5aeb5c
 colors.base0C = 0xbceb5a
 colors.base0D = 0xf09b48
-colors.base0E = 0x8080FF
-colors.base0F = 0xE79BF6
+colors.base0E = 0x8080ff
+colors.base0F = 0xe79bf6
 
 -- Default font.
 if not font then font = OS == 'windows' and 'Consolas' or OS == 'macos' and 'Monaco' or 'Monospace' end

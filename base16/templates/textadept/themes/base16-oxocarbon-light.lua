@@ -1,6 +1,6 @@
 -- Base16 Theme: Oxocarbon Light
 -- http://chriskempson.com/projects/base16/
--- Theme author: shaunsingh/IBM
+-- Theme author: shaunsingh/IBM, Tinted Theming (https://github.com/tinted-theming)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default themes
 -- Copyright 2007-2023 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -10,20 +10,20 @@ local view, colors, styles = view, view.colors, view.styles
 -- Base16 colors
 colors.base00 = 0xf8f4f2
 colors.base01 = 0xe6e1dd
-colors.base02 = 0x525252
-colors.base03 = 0x161616
-colors.base04 = 0x262626
-colors.base05 = 0x393939
-colors.base06 = 0x525252
-colors.base07 = 0xbabd08
+colors.base02 = 0xcfc6be
+colors.base03 = 0xbaaca1
+colors.base04 = 0x8d7868
+colors.base05 = 0x705f52
+colors.base06 = 0x52463d
+colors.base07 = 0x352d27
 colors.base08 = 0xb67eff
 colors.base09 = 0x9653ee
-colors.base0A = 0x006FFF
-colors.base0B = 0xfe620f
-colors.base0C = 0xB73A67
-colors.base0D = 0x65be42
+colors.base0A = 0x006fff
+colors.base0B = 0x65be42
+colors.base0C = 0xb73a67
+colors.base0D = 0xfe620f
 colors.base0E = 0xff95be
-colors.base0F = 0x4F4737
+colors.base0F = 0x003880
 
 -- Default font.
 if not font then font = OS == 'windows' and 'Consolas' or OS == 'macos' and 'Monaco' or 'Monospace' end

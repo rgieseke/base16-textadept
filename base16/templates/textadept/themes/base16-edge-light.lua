@@ -1,6 +1,6 @@
 -- Base16 Theme: Edge Light
 -- http://chriskempson.com/projects/base16/
--- Theme author: cjayross (https://github.com/cjayross)
+-- Theme author: cjayross (https://github.com/cjayross), Tinted Theming (https://github.com/tinted-theming)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default themes
 -- Copyright 2007-2023 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -9,16 +9,16 @@ local view, colors, styles = view, view.colors, view.styles
 
 -- Base16 colors
 colors.base00 = 0xfafafa
-colors.base01 = 0x4b9f7c
-colors.base02 = 0x2298d6
-colors.base03 = 0x6f645e
-colors.base04 = 0xbf8765
-colors.base05 = 0x6f645e
-colors.base06 = 0xce70b8
-colors.base07 = 0x6f645e
+colors.base01 = 0xe8e5e3
+colors.base02 = 0xb9b1ac
+colors.base03 = 0xa19791
+colors.base04 = 0x6f645e
+colors.base05 = 0x524747
+colors.base06 = 0x463a3a
+colors.base07 = 0x382e2e
 colors.base08 = 0x7070db
-colors.base09 = 0x7070db
-colors.base0A = 0x2298d6
+colors.base09 = 0x1aa3eb
+colors.base0A = 0x1acceb
 colors.base0B = 0x4b9f7c
 colors.base0C = 0x939c50
 colors.base0D = 0xbf8765

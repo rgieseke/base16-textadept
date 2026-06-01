@@ -1,6 +1,6 @@
 -- Base16 Theme: Github
 -- http://chriskempson.com/projects/base16/
--- Theme author: Defman21
+-- Theme author: Tinted Theming (https://github.com/tinted-theming)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default themes
 -- Copyright 2007-2023 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -8,22 +8,22 @@
 local view, colors, styles = view, view.colors, view.styles
 
 -- Base16 colors
-colors.base00 = 0xffffff
-colors.base01 = 0xf5f5f5
-colors.base02 = 0xfac8c8
-colors.base03 = 0x969896
-colors.base04 = 0xe8e8e8
-colors.base05 = 0x333333
-colors.base06 = 0xffffff
-colors.base07 = 0xffffff
-colors.base08 = 0x436aed
-colors.base09 = 0xb38600
-colors.base0A = 0xa35d79
-colors.base0B = 0x913618
-colors.base0C = 0x913618
-colors.base0D = 0xa35d79
-colors.base0E = 0x5d1da7
-colors.base0F = 0x333333
+colors.base00 = 0xf2eeea
+colors.base01 = 0xded7d0
+colors.base02 = 0xc1b8af
+colors.base03 = 0x9f958c
+colors.base04 = 0x81776e
+colors.base05 = 0x534a42
+colors.base06 = 0x3f3832
+colors.base07 = 0x28231f
+colors.base08 = 0x4945fa
+colors.base09 = 0x246fe1
+colors.base0A = 0x0087bf
+colors.base0B = 0x4ea42d
+colors.base0C = 0x9b9d33
+colors.base0D = 0xff8b21
+colors.base0E = 0xf975a4
+colors.base0F = 0x002d4d
 
 -- Default font.
 if not font then font = OS == 'windows' and 'Consolas' or OS == 'macos' and 'Monaco' or 'Monospace' end

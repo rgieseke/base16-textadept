@@ -1,6 +1,6 @@
 -- Base16 Theme: Windows 10 Light
 -- http://chriskempson.com/projects/base16/
--- Theme author: Fergus Collins (https://github.com/C-Fergus)
+-- Theme author: Fergus Collins (https://github.com/ferguscollins)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default themes
 -- Copyright 2007-2023 Mitchell mitchell.att.foicica.com. MIT licensed.

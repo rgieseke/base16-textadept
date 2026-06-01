@@ -1,6 +1,6 @@
 -- Base16 Theme: Heetch Light
 -- http://chriskempson.com/projects/base16/
--- Theme author: Geoffrey Teale (tealeg@gmail.com)
+-- Theme author: Geoffrey Teale (tealeg@gmail.com), Tinted Theming (https://github.com/tinted-theming)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default themes
 -- Copyright 2007-2023 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -9,21 +9,21 @@ local view, colors, styles = view, view.colors, view.styles
 
 -- Base16 colors
 colors.base00 = 0xfffffe
-colors.base01 = 0x512539
-colors.base02 = 0x8b6d7b
+colors.base01 = 0xe2dade
+colors.base02 = 0xc5b6bd
 colors.base03 = 0xa8929c
-colors.base04 = 0xe5d6dd
+colors.base04 = 0x8b6d7b
 colors.base05 = 0x6e495a
-colors.base06 = 0x460547
+colors.base06 = 0x512539
 colors.base07 = 0x340119
-colors.base08 = 0xd5d927
-colors.base09 = 0xc5b6bd
-colors.base0A = 0xb6a25b
-colors.base0B = 0x5900f8
-colors.base0C = 0x7836c3
-colors.base0D = 0xf5f947
-colors.base0E = 0x5201bd
-colors.base0F = 0xe2dade
+colors.base08 = 0x5900f8
+colors.base09 = 0x5201bd
+colors.base0A = 0x0197bd
+colors.base0B = 0x6ab65b
+colors.base0C = 0xf5f947
+colors.base0D = 0xb6a25b
+colors.base0E = 0x976c8f
+colors.base0F = 0x5d4258
 
 -- Default font.
 if not font then font = OS == 'windows' and 'Consolas' or OS == 'macos' and 'Monaco' or 'Monospace' end

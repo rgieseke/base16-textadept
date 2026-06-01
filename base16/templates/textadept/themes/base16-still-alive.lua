@@ -1,6 +1,6 @@
 -- Base16 Theme: Still Alive
 -- http://chriskempson.com/projects/base16/
--- Theme author: Derrick McKee (derrick.mckee@gmail.com)
+-- Theme author: Derrick McKee (derrick.mckee@gmail.com), Tinted Theming (https://github.com/tinted-theming)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default themes
 -- Copyright 2007-2023 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -8,22 +8,22 @@
 local view, colors, styles = view, view.colors, view.styles
 
 -- Base16 colors
-colors.base00 = 0xF0F0F0
-colors.base01 = 0x48D8F0
-colors.base02 = 0x18F0FF
-colors.base03 = 0x1818F0
-colors.base04 = 0x0000F0
-colors.base05 = 0x0000D8
-colors.base06 = 0x009048
-colors.base07 = 0x60A830
-colors.base08 = 0x307848
-colors.base09 = 0x483018
-colors.base0A = 0x956342
-colors.base0B = 0x6A5C5C
-colors.base0C = 0x573C2C
-colors.base0D = 0x781800
-colors.base0E = 0x000090
-colors.base0F = 0x0D0C14
+colors.base00 = 0xf0f0f0
+colors.base01 = 0xd6d6d6
+colors.base02 = 0xbdbdbd
+colors.base03 = 0xa3a3a3
+colors.base04 = 0x585760
+colors.base05 = 0x3b384c
+colors.base06 = 0x211f33
+colors.base07 = 0x0d0c14
+colors.base08 = 0x0000d8
+colors.base09 = 0x48d8f0
+colors.base0A = 0x18f0ff
+colors.base0B = 0x60a830
+colors.base0C = 0xffd336
+colors.base0D = 0xff5e36
+colors.base0E = 0xff3690
+colors.base0F = 0x0d0c14
 
 -- Default font.
 if not font then font = OS == 'windows' and 'Consolas' or OS == 'macos' and 'Monaco' or 'Monospace' end

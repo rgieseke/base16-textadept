@@ -8,21 +8,21 @@
 local view, colors, styles = view, view.colors, view.styles
 
 -- Base16 colors
-colors.base00 = 0x2E1F14
+colors.base00 = 0x2e1f14
 colors.base01 = 0x1e5c1e
 colors.base02 = 0x5c3e27
 colors.base03 = 0xa0ffa0
 colors.base04 = 0x1e5c1e
-colors.base05 = 0x33CCFF
-colors.base06 = 0xFFCC91
+colors.base05 = 0x33ccff
+colors.base06 = 0xffcc91
 colors.base07 = 0x805737
 colors.base08 = 0xb1faff
-colors.base09 = 0x8080FF
-colors.base0A = 0xFFCC91
+colors.base09 = 0x8080ff
+colors.base0A = 0xffcc91
 colors.base0B = 0x80ff80
 colors.base0C = 0x80ff80
 colors.base0D = 0xf5cfa2
-colors.base0E = 0xFF9900
+colors.base0E = 0xff9900
 colors.base0F = 0xe7e7e7
 
 -- Default font.

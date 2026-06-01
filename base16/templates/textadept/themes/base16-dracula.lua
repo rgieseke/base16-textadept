@@ -1,6 +1,6 @@
 -- Base16 Theme: Dracula
 -- http://chriskempson.com/projects/base16/
--- Theme author: Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)
+-- Theme author: clach04 (https://github.com/clach04)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default themes
 -- Copyright 2007-2023 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -8,22 +8,22 @@
 local view, colors, styles = view, view.colors, view.styles
 
 -- Base16 colors
-colors.base00 = 0x362928
-colors.base01 = 0x4e3c3a
-colors.base02 = 0x684f4d
-colors.base03 = 0x836462
-colors.base04 = 0xe8d662
-colors.base05 = 0xf4e9e9
-colors.base06 = 0xf8f2f1
-colors.base07 = 0xfbf7f7
-colors.base08 = 0xb251ea
-colors.base09 = 0xcf5bb4
-colors.base0A = 0x69f700
-colors.base0B = 0x87ffeb
-colors.base0C = 0xe4efa1
-colors.base0D = 0xe8d662
-colors.base0E = 0xcf5bb4
-colors.base0F = 0x69f700
+colors.base00 = 0x362a28
+colors.base01 = 0x2c2221
+colors.base02 = 0x5a4744
+colors.base03 = 0xa47262
+colors.base04 = 0xc7a89e
+colors.base05 = 0xf2f8f8
+colors.base06 = 0xf2f8f8
+colors.base07 = 0xffffff
+colors.base08 = 0x5555ff
+colors.base09 = 0x6cb8ff
+colors.base0A = 0x8cfaf1
+colors.base0B = 0x7bfa50
+colors.base0C = 0xfde98b
+colors.base0D = 0xf993bd
+colors.base0E = 0xc679ff
+colors.base0F = 0x333399
 
 -- Default font.
 if not font then font = OS == 'windows' and 'Consolas' or OS == 'macos' and 'Monaco' or 'Monospace' end

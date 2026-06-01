@@ -1,6 +1,6 @@
 -- Base16 Theme: Everforest Dark Hard
 -- http://chriskempson.com/projects/base16/
--- Theme author: Oskar Liew (https://github.com/OskarLiew)
+-- Theme author: Sainnhe Park (https://github.com/sainnhe)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default themes
 -- Copyright 2007-2023 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -14,16 +14,16 @@ colors.base02 = 0x504b41
 colors.base03 = 0x899285
 colors.base04 = 0xa0a99d
 colors.base05 = 0xaac6d3
-colors.base06 = 0xcde1e4
-colors.base07 = 0xe3f6fd
-colors.base08 = 0xb3bb7f
-colors.base09 = 0xb699d6
+colors.base06 = 0xdaeaed
+colors.base07 = 0xeffbff
+colors.base08 = 0x807ee6
+colors.base09 = 0x7598e6
 colors.base0A = 0x7fbcdb
-colors.base0B = 0x92c083
-colors.base0C = 0x7598e6
-colors.base0D = 0x80c0a7
-colors.base0E = 0x807ee6
-colors.base0F = 0x43374C
+colors.base0B = 0x80c0a7
+colors.base0C = 0x92c083
+colors.base0D = 0xb3bb7f
+colors.base0E = 0xb699d6
+colors.base0F = 0xa0a99d
 
 -- Default font.
 if not font then font = OS == 'windows' and 'Consolas' or OS == 'macos' and 'Monaco' or 'Monospace' end

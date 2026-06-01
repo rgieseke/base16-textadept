@@ -1,6 +1,6 @@
 -- Base16 Theme: eris
 -- http://chriskempson.com/projects/base16/
--- Theme author: ed (https://codeberg.org/ed)
+-- Theme author: ed (https://codeberg.org/ed), Tinted Theming (https://github.com/tinted-theming)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default themes
 -- Copyright 2007-2023 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -17,13 +17,13 @@ colors.base05 = 0xac6b60
 colors.base06 = 0xc58679
 colors.base07 = 0xe5aa9a
 colors.base08 = 0xa368f7
-colors.base09 = 0xa368f7
-colors.base0A = 0xa2aefa
-colors.base0B = 0xa2aefa
-colors.base0C = 0xc48f25
+colors.base09 = 0x6889f7
+colors.base0A = 0x68d6f7
+colors.base0B = 0xa8faa2
+colors.base0C = 0xf0faa2
 colors.base0D = 0xc48f25
-colors.base0E = 0xa368f7
-colors.base0F = 0xa368f7
+colors.base0E = 0xf768c3
+colors.base0F = 0x0056b8
 
 -- Default font.
 if not font then font = OS == 'windows' and 'Consolas' or OS == 'macos' and 'Monaco' or 'Monospace' end

@@ -1,6 +1,6 @@
 -- Base16 Theme: Tokyodark
 -- http://chriskempson.com/projects/base16/
--- Theme author: Tiagovla (https://github.com/tiagovla/)
+-- Theme author: Jamy Golden (https://github.com/JamyGolden), Based on Tokyodark.nvim (https://github.com/tiagovla/tokyodark.nvim)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default themes
 -- Copyright 2007-2023 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -9,20 +9,20 @@ local view, colors, styles = view, view.colors, view.styles
 
 -- Base16 colors
 colors.base00 = 0x1d1211
-colors.base01 = 0x211615
-colors.base02 = 0x4f4443
-colors.base03 = 0x453a39
-colors.base04 = 0x271c1b
-colors.base05 = 0xbfb2ab
-colors.base06 = 0x615655
-colors.base07 = 0x382d2c
-colors.base08 = 0xdd85a4
-colors.base09 = 0xdd85a4
-colors.base0A = 0xee9971
-colors.base0B = 0x5fA6d7
-colors.base0C = 0xdd85a4
-colors.base0D = 0x61c595
-colors.base0E = 0x856dee
+colors.base01 = 0x342221
+colors.base02 = 0x342221
+colors.base03 = 0x453935
+colors.base04 = 0x57504a
+colors.base05 = 0xcda8a0
+colors.base06 = 0xbfb2ab
+colors.base07 = 0xdcc2bc
+colors.base08 = 0x856dee
+colors.base09 = 0x5b95f6
+colors.base0A = 0x5fa6d7
+colors.base0B = 0x61c595
+colors.base0C = 0xf3bb9f
+colors.base0D = 0xee9971
+colors.base0E = 0xdd85a4
 colors.base0F = 0x403477
 
 -- Default font.

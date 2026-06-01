@@ -1,6 +1,6 @@
 -- Base16 Theme: Oxocarbon Dark
 -- http://chriskempson.com/projects/base16/
--- Theme author: shaunsingh/IBM
+-- Theme author: shaunsingh/IBM, Tinted Theming (https://github.com/tinted-theming)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default themes
 -- Copyright 2007-2023 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -16,12 +16,12 @@ colors.base04 = 0xe6e1dd
 colors.base05 = 0xf8f4f2
 colors.base06 = 0xffffff
 colors.base07 = 0xbabd08
-colors.base08 = 0xd9db3d
-colors.base09 = 0xffa978
-colors.base0A = 0x9653ee
-colors.base0B = 0xffb133
-colors.base0C = 0xb67eff
-colors.base0D = 0x65be42
+colors.base08 = 0x9653ee
+colors.base09 = 0xb67eff
+colors.base0A = 0x006fff
+colors.base0B = 0x65be42
+colors.base0C = 0xd9db3d
+colors.base0D = 0xffb133
 colors.base0E = 0xff95be
 colors.base0F = 0xffcf82
 

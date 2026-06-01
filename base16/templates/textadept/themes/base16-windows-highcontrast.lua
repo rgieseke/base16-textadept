@@ -1,6 +1,6 @@
 -- Base16 Theme: Windows High Contrast
 -- http://chriskempson.com/projects/base16/
--- Theme author: Fergus Collins (https://github.com/C-Fergus)
+-- Theme author: Fergus Collins (https://github.com/ferguscollins)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default themes
 -- Copyright 2007-2023 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -9,7 +9,7 @@ local view, colors, styles = view, view.colors, view.styles
 
 -- Base16 colors
 colors.base00 = 0x000000
-colors.base01 = 0x1C1C1C
+colors.base01 = 0x1c1c1c
 colors.base02 = 0x383838
 colors.base03 = 0x545454
 colors.base04 = 0xa2a2a2

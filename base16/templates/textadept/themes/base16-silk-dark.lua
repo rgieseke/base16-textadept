@@ -9,13 +9,13 @@ local view, colors, styles = view, view.colors, view.styles
 
 -- Base16 colors
 colors.base00 = 0x463c0e
-colors.base01 = 0x4E491D
-colors.base02 = 0x54502A
+colors.base01 = 0x4e491d
+colors.base02 = 0x54502a
 colors.base03 = 0x737058
-colors.base04 = 0xCDC89D
-colors.base05 = 0xDDDBC7
-colors.base06 = 0xF7F2CB
-colors.base07 = 0xFFFAD2
+colors.base04 = 0xcdc89d
+colors.base05 = 0xdddbc7
+colors.base06 = 0xf7f2cb
+colors.base07 = 0xfffad2
 colors.base08 = 0x5369fb
 colors.base09 = 0x74abfc
 colors.base0A = 0x80e3fc

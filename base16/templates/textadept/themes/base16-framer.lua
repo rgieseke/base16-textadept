@@ -12,18 +12,18 @@ colors.base00 = 0x181818
 colors.base01 = 0x151515
 colors.base02 = 0x464646
 colors.base03 = 0x747474
-colors.base04 = 0xB9B9B9
-colors.base05 = 0xD0D0D0
-colors.base06 = 0xE8E8E8
-colors.base07 = 0xEEEEEE
-colors.base08 = 0x6B88FD
-colors.base09 = 0x6947FC
-colors.base0A = 0x6ECBFE
-colors.base0B = 0xDCCC32
-colors.base0C = 0xFDDDAC
-colors.base0D = 0xFCBC20
-colors.base0E = 0xFC8CBA
-colors.base0F = 0x4A5FB1
+colors.base04 = 0xb9b9b9
+colors.base05 = 0xd0d0d0
+colors.base06 = 0xe8e8e8
+colors.base07 = 0xeeeeee
+colors.base08 = 0x6b88fd
+colors.base09 = 0x6947fc
+colors.base0A = 0x6ecbfe
+colors.base0B = 0xdccc32
+colors.base0C = 0xfdddac
+colors.base0D = 0xfcbc20
+colors.base0E = 0xfc8cba
+colors.base0F = 0x4a5fb1
 
 -- Default font.
 if not font then font = OS == 'windows' and 'Consolas' or OS == 'macos' and 'Monaco' or 'Monospace' end

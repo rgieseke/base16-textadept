@@ -13,16 +13,16 @@ colors.base01 = 0x454545
 colors.base02 = 0x454545
 colors.base03 = 0x454545
 colors.base04 = 0x808080
-colors.base05 = 0xC0C0C0
-colors.base06 = 0xC0C0C0
+colors.base05 = 0xc0c0c0
+colors.base06 = 0xc0c0c0
 colors.base07 = 0x454545
-colors.base08 = 0xA2A6EF
-colors.base09 = 0xEFB8A3
-colors.base0A = 0xDCA3E6
-colors.base0B = 0x90C980
-colors.base0C = 0x74C8C8
-colors.base0D = 0xCDCA50
-colors.base0E = 0x85AFE0
+colors.base08 = 0xa2a6ef
+colors.base09 = 0xefb8a3
+colors.base0A = 0xdca3e6
+colors.base0B = 0x90c980
+colors.base0C = 0x74c8c8
+colors.base0D = 0xcdca50
+colors.base0E = 0x85afe0
 colors.base0F = 0x808080
 
 -- Default font.
