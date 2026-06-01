@@ -26,8 +26,8 @@ colors.base0E = 0xd9f600
 colors.base0F = 0x813dff
 
 -- Default font.
-if not font then font = WIN32 and 'Consolas' or OSX and 'Monaco' or 'Monospace' end
-if not size then size = not OSX and 10 or 12 end
+if not font then font = OS == 'windows' and 'Consolas' or OS == 'macos' and 'Monaco' or 'Monospace' end
+if not size then size = OS ~= 'macos' and 10 or 12 end
 
 -- Predefined styles.
 styles[view.STYLE_DEFAULT] = {
