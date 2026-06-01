@@ -13,35 +13,30 @@ Set a theme by putting the following in your `~/.textadept/init.lua`, e.g. for
 Solarized Light:
 
 ```lua
-    view:set_theme(not CURSES and 'base16-solarized-light' or 'term')
+    view:set_theme(UI ~= 'terminal' and 'base16-solarized-light' or 'term')
 ```
 
-This repo tracks the latest Textadept 12 changes.
+This repo tracks the latest Textadept 13 changes.
 
 The themes and tools from [Tinted Theming](https://github.com/tinted-theming/) are used.
 
 Preview: <https://tinted-theming.github.io/tinted-gallery/>
 
-To build or develop locally (using [`base16-builder-node`](https://github.com/tinted-theming/base16-builder-node)):
+To build or develop locally (using [`tinted-builder-rust`](https://github.com/tinted-theming/tinted-builder-rust)):
+
+
+Sync the schemes:
 
 ```shell
-npm install base16-builder-node
+tinted-builder-rust sync
 ```
 
-Clone (or update) the schemes, which are tracked as a submodule:
-
-```shell
-cd base16
-https://github.com/tinted-theming/schemes schemes
-```
-
-To update the themes, run `git pull` in the `schemes` directory.
 
 
 To generate the themes from `default.mustache`:
 
 ```
-npx base16 build base16 --prefix base16-
+tinted-builder-rust build base16/templates/textadept
 ```
 
 If this repo is in `.textadept/themes/base16-textadept` one can symlink the themes so Textadept can find them:
