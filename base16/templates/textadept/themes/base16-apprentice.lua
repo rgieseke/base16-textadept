@@ -1,6 +1,6 @@
 -- Base16 Theme: Apprentice
 -- http://chriskempson.com/projects/base16/
--- Theme author: romainl
+-- Theme author: Romain Lafourcade (https://github.com/romainl)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default themes
 -- Copyright 2007-2023 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -9,21 +9,21 @@ local view, colors, styles = view, view.colors, view.styles
 
 -- Base16 colors
 colors.base00 = 0x262626
-colors.base01 = 0x5f5faf
-colors.base02 = 0x5f875f
-colors.base03 = 0x5f8787
-colors.base04 = 0xaf875f
-colors.base05 = 0x875f5f
-colors.base06 = 0x87875f
-colors.base07 = 0x6c6c6c
-colors.base08 = 0x444444
+colors.base01 = 0x303030
+colors.base02 = 0x3a3a3a
+colors.base03 = 0x444444
+colors.base04 = 0x6c6c6c
+colors.base05 = 0xbcbcbc
+colors.base06 = 0xdfdfdf
+colors.base07 = 0xffffff
+colors.base08 = 0x5f5faf
 colors.base09 = 0x0087ff
-colors.base0A = 0x87af87
-colors.base0B = 0xafffff
-colors.base0C = 0xd7af87
-colors.base0D = 0xaf8787
-colors.base0E = 0xafaf5f
-colors.base0F = 0xbcbcbc
+colors.base0A = 0x5f8787
+colors.base0B = 0x5f875f
+colors.base0C = 0x87875f
+colors.base0D = 0xaf875f
+colors.base0E = 0x875f5f
+colors.base0F = 0x5f5faf
 
 -- Default font.
 if not font then font = OS == 'windows' and 'Consolas' or OS == 'macos' and 'Monaco' or 'Monospace' end
